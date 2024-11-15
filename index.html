@@ -3,98 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>srushti - Resume</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Resume</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
 </head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GY8B98LST6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-GY8B98LST6');
-</script>
 <body>
-    <header class="header">
-        <div class="container">
-            <h1>Srushti Lukhi</h1>
-            <p>UI/UX Designer & Developer</p>
+
+  
+    <header class="bg-primary text-white text-center py-5">
+        <img src="./image/WhatsApp Image 2024-11-14 at 10.29.50 PM.jpeg" alt="Profile Picture" class="profile-img rounded-circle " style="height: 100px; width: 100px;">
+        <h1 class="mb-0">Srushti Lukhi</h1>
+        <p class="lead">User Designer Developer | Frontend Developer </p>
+        <div class="social-icons">
+            <a href="#" class="text-white"><i class="fab fa-github"></i></a>
+            <a href="#" class="text-white mx-3"><i class="fab fa-linkedin"></i></a>
+            <!-- <a href="#" class="text-white"><i class="fab fa-twitter"></i></a> -->
         </div>
     </header>
 
-    <nav class="navigation">
-        <div class="container">
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#skills">Skills</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
+    <section class="container my-5">
+        <h2 class="text-primary">About Me</h2>
+        <p>
+            I am currently pursuing a Master's in User Experience Design at the New York Institute of Technology and have completed the Google UX Design Professional Certificate. With previous experience in web development and a passion for user-centered design, I am excited to apply my skills in UX, visual design, and animation.
+        </p>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="text-primary">Education</h2>
+        <div class="row">
+            <div class="col-md-8">
+                
+                <ul>
+                    <li><strong>New York Institute Of Technology</strong> 2024 - Master Program</li>
+                    <li><strong>Bhagwan Mahavir College of Engineering of Technology </strong> 2020-2023</li>
+                </ul>
+            </div>
+           
         </div>
-    </nav>
+    </section>
 
-    <main class="container">
-        <section id="about" class="about">
-            <div class="about-content">
-                <img src="images/profile.jpg" alt="srushti image" class="profile-image">
-                <div class="about-text">
-                    <h2>About Me</h2>
-                    <p>Web developer with hands-on experience from 2022 to 2023, now advancing skills through a Master's in UI/UX design. Proficient in front-end technologies, including HTML, CSS, and JavaScript, with a strong focus on creating responsive, user-friendly websites. Currently deepening expertise in user research, wireframing, and prototyping to craft intuitive digital products that meet user needs and business goals. Passionate about blending design and functionality to create compelling, seamless user experiences across web and mobile platforms.</p>
-                </div>
+    <section class="container my-5">
+        <h2 class="text-primary">Experience & Skills</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Experience</h3>
+                <ul>
+                    <li><strong>Technoapp Solution Pvt. Ltd </strong> (2022 - 2023) - Designed and developed a wide range of websites.</li>
+                    <li><strong>Front-end Intern - Durvasa Infotech</strong> - (2021 - 2022)  - Created responsive, user-friendly websites.</li>
+                </ul>
             </div>
-        </section>
-
-        <div class="flex-container">
-            <div class="left-column">
-                <section id="education" class="education">
-                    <h2>Education</h2>
-                    <article>
-                        <h3>New Yourk Institute Of Technology</h3>
-                        <p>2024 - Master Program</p>
-                    </article>
-                    <article>
-                        <h3>Bhagwan Mahavir College of Engineering of Technology </h3>
-                        <p>2020-2023</p>
-                    </article>
-                </section>
-
-                <section id="skills" class="skills">
-                    <h2>Skills</h2>
-                    <ul>
-                        <li>HTML5 & CSS3</li>
-                        <li>JavaScript & ReactJS</li>
-                        <li>Wireframing</li>
-                        <li>UX/UI Design</li>
-                    </ul>
-                </section>
-            </div>
-
-            <div class="right-column">
-                <section id="experience" class="experience">
-                    <h2>Professional Experience</h2>
-                    <article>
-                        <h3>Front-end Intern - Durvasa Infotech </h3>
-                        <p>2021 - 2022</p>
-                        <p>Designed and developed a wide range of websites.</p>
-                    </article>
-                    <!-- <article>
-                        <h3>Web Developer - Fortune 500 Corporation</h3>
-                        <p>2020 - 2024</p>
-                        <p>Designed and developed a wide range of websites.</p>
-                    </article> -->
-                </section>
+            <div class="col-md-6">
+                <h3>Skills</h3>
+                <ul>
+                    <li>UX Design & Research</li>
+                    <li>Web Development (HTML, CSS, JavaScript)</li>
+                    <li>3D Animation (Figma)</li>
+                </ul>
             </div>
         </div>
-    </main>
+    </section>
 
-    <footer class="footer container">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:michael.posso@example.com">srushtilukhi2607@gmail.com</a></p>
-        <div class="social-media">
-            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/dashboard" target="_blank"><i class="fab fa-github"></i></a>
-            <!-- <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a> -->
+    <section class="container my-5">
+        <h2 class="text-primary">Projects</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <ul>
+                    <li><strong>Resort Website | Website Design</strong> (JULY - 2023)
+                         <li>Designed a user-centric interface.</li>	
+                        <li>Leveraged Figma for the design process, ensuring a collaborative and efficient approach.</li>
+                    </li>
+                    <li><strong>Sport Club App | Mobile App</strong> (MAY - 2023)
+                        <li>Utilized prototyping techniques to collaborate with clients</li>	
+                       <li>Applied core UI/UX principles to ensure an intuitive user experience with essential features.</li>
+                   </li>
+                   <li><strong>Fleet Planning Dashboard | Website Design</strong> (DEC - 2022)
+                    <li>Collaborated closely with stakeholders to ensure an intuitive interface, resulting in enhanced logistics management and data-driven decision-making.</li>	
+                   <li>Led the ideation and development of a human-centered fleet planning dashboard using Design Thinking methodologies.</li>
+               </li>
+              
+                   
+                </ul>
+            </div>
+            <div class="col-md-6">
+                
+                <ul>
+                    <li><strong>Pharma Website | Website Design</strong> (JULY - 2022)
+                        <li>Created an integrated Pharma Website with a captivating landing page that facilitates easy redirection to the e-commerce section.</li>	
+                       <li>Employed advanced UI/UX techniques for an attractive landing page, ensuring a smooth transition to the e-commerce platform, resulting in increased user engagement and sales.</li>
+                   </li>
+                   <li><strong>The Bookspot | ReactJS</strong> (FEB - 2022)
+                    <li>ReactJS-based web application that empowers book enthusiasts to explore, rate, and review books.</li>	
+                   <li>Applied React's component-based architecture and state management for a dynamic and user-friendly platform, fostering a vibrant online reading community.</li>
+               </li>
+                </ul>
+            </div>
         </div>
+    </section>
+
+
+    <footer class="text-center bg-dark text-white py-3">
+        <p>&copy; 2024 Srushti Lukhi</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
